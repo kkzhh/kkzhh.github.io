@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 subtitle: 姿势
 date: 2019-3-14
@@ -9,9 +9,8 @@ catalog: true
 tags:
   - 电脑技巧
 ---
-
-本文目的是推荐部分我常用的脚本，也作为我的留念
-
+## 前言
+本文目的是推荐部分我常用的脚本，也作为我的留念<br>
 没有特殊注明地址的都表示可以在 Sleazy Fork 搜索到的。
 
 ### Super_preloaderPlus_one_New
@@ -51,12 +50,3 @@ _获取百度网盘高速下载地址 支持IDM,FDM,迅雷下载 支持直链加
 <br><br><br>
 ## 总结
 上面的脚本有一些是比较常见的，不过以防万一_因为是按顺序的_，还是加上了，以后有时间再补上其它脚本
-
-
-
-
-
-
-
-
-
