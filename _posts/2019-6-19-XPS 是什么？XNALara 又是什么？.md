@@ -42,7 +42,8 @@ TRF论坛是原程序发布地，并且是个很活跃的古墓丽影论坛。�
 #### 运行要求
 
 需要系统已安装下面两个支持框架才能运行软件：
-[Microsoft .NET Framework 3.5](https://www.microsoft.com/zh-CN/download/details.aspx?id=21)（WIN7 自带，大部分 WIN10 也自带有）
+
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/zh-CN/download/details.aspx?id=21)（WIN7 自带，大部分 WIN10 也自带有）</br>
 [Microsoft XNA Framework Redistributable 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=22588)
 
 
