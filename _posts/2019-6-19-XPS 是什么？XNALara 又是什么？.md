@@ -36,7 +36,7 @@ XNALara 发布于 2009 年，最初的本意是为了制作《古墓丽影》系
 
 TRF论坛是原程序发布地，并且是个很活跃的古墓丽影论坛。在改版为XPS后，资源开始转移到 DeviantArt 上。
 
-### 运行要求
+#### 运行要求
 
 需要系统已安装下面两个支持框架才能运行软件：
 [Microsoft .NET Framework 3.5](https://www.microsoft.com/zh-CN/download/details.aspx?id=21)（WIN7 自带，大部分 WIN10 也自带有）
@@ -44,7 +44,7 @@ TRF论坛是原程序发布地，并且是个很活跃的古墓丽影论坛。�
 
 
 
-### 本体下载
+#### 本体下载
 
 [Core Design](http://www.core-design.com/community_xps.html) 
 [Mirror](https://www55.zippyshare.com/v/GjzNLcMz/file.html)（部分地区需要梯子）
@@ -84,7 +84,7 @@ TRF论坛是原程序发布地，并且是个很活跃的古墓丽影论坛。�
 
 ## 操作&移植
 
-https://blog.xuite.net/kanna.kei/acg/84957646
+https://blog.xuite.net/kanna.kei/acg/84957646  
 https://tieba.baidu.com/f?kw=xnalara%E5%90%8C%E5%A5%BD&ie=utf-8&tp=0
 
 ----------
