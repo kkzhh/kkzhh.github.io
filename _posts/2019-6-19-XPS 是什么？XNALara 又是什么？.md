@@ -1,6 +1,5 @@
 ---
-title:XPS 是什么？XNALara 又是什么？
-published: true
+title: XPS 是什么？XNALara 又是什么？
 layout: post
 subtitle: 姿势
 date: 2019-6-18
@@ -9,6 +8,8 @@ header-img: img/optimization.png
 catalog: true
 tags:
   - 闲聊
+
+published: true
 ---
 
 ## 来历
