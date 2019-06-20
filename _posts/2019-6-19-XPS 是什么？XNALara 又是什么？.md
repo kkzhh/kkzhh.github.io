@@ -45,7 +45,7 @@ TRF论坛是原程序发布地，并且是个很活跃的古墓丽影论坛。�
 
 ### 本体下载
 
-[Core Design download](http://www.core-design.com/community_xps.html)
+[Core Design](http://www.core-design.com/community_xps.html) 
 [Mirror](https://www55.zippyshare.com/v/GjzNLcMz/file.html)（部分地区需要梯子）
 
 [中文版](https://pan.baidu.com/s/15wHKBsrgdVfL18re7wgGkA) （感谢来自xnalara同好的吧友 @血色童年2014 的无私汉化）
