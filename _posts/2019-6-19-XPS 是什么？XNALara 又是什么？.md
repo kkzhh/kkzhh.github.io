@@ -56,7 +56,9 @@ TRF论坛是原程序发布地，并且是个很活跃的古墓丽影论坛。�
 
 [中文版](https://pan.baidu.com/s/15wHKBsrgdVfL18re7wgGkA) （感谢来自xnalara同好的吧友 @血色童年2014 的无私汉化）
 
-[DeviantArt大本营](https://www.deviantart.com/xnalaraitalia)（部分地区需要梯子）
+[DeviantArt](https://www.deviantart.com/xnalaraitalia)（部分地区需要梯子）
+
+[xnaLARA](http://xnalara.org/)
 
 
 ----------
