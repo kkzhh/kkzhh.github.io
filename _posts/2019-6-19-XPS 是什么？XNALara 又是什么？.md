@@ -1,5 +1,5 @@
 ---
-title: XPS 是什么？XNALara 又是什么？
+title: XPS是什么? XNALara是什么?
 layout: post
 subtitle: 姿势
 date: 2019-6-18
