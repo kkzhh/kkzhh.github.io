@@ -68,7 +68,9 @@ https://github.com/alice0775/userChrome.js
 
 //1.鼠标悬浮标签栏自动激活
 
-``` clojure
+
+
+``` javascript
 ((g, w) => {
   class TabPlus {
     constructor() {
@@ -86,6 +88,7 @@ https://github.com/alice0775/userChrome.js
   new TabPlus();
 })(gBrowser, window);
 ```
+
 
 userChrome 插件 & tabPlus 脚本打包下载： https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg 提取码: 1234 
 
