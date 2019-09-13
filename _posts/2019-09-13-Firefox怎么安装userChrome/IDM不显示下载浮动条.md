@@ -25,7 +25,7 @@ tags:
 
 #### Internet Download Manager
 
- IDM 在 HTTP 和 FTP 下载方面无可质疑的是一款神器，个人感觉最好用的，没有之一，正版价格也很便宜，支持支付宝和微信。
+ IDM 在 HTTP 和 FTP 下载方面无可质疑的是一款神器。
 
 #### Gesturefy
 
