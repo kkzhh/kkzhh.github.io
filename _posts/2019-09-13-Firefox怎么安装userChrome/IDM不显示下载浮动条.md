@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Firefox 怎么安装 userChrome\IDM不显示下载浮动条
+title:      Firefox 怎么安装 userChrome\IDM不显示下载浮动条\Firefox 右键关闭标签页
 subtitle:   姿势
 date:       2019-09-13
 author:     kkzh
@@ -39,6 +39,12 @@ userChrome（下面简称 UC） 是由 Zeniko 从 userChrome.js 衍生而来的�
 
 ## 安装
 
+**两步完成安装：**
+
+首先，在地址栏输入：about:config，无视警告后再搜索 toolkit.legacyUserProfileCustomizations.stylesheets，双击参数设置属性为 true。
+
+然后下载UC插件：
+
 目前还在维护的 UC 项目是 alice0775 的
 https://github.com/alice0775/userChrome.js
 
@@ -53,6 +59,8 @@ https://github.com/alice0775/userChrome.js
 ![enter description here](https://pic.superbed.cn/item/5d789016451253d1785b3511.jpg)
 
 在打开的配置文件夹中新建文件夹 chrome，将以上三个下载的文件丢进去即完成 userChrome 的安装。
+
+<br>
 
 但是 userChrome 安装完成后没有用，还需要把你的 UC 脚本复制粘贴到 chrome 文件夹中，但 UC 脚本就需要你们自己去找了 。
 
