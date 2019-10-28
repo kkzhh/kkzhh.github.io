@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Firefox 怎么安装 userChrome\\IDM不显示下载浮动条\\Firefox 右键关闭标签页
+title:      Firefox 怎么安装 userChrome\IDM不显示下载浮动条\Firefox 右键关闭标签页
 subtitle:   姿势
 date:       2019-09-13
 author:     kkzh
