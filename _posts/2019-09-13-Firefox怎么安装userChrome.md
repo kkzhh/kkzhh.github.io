@@ -13,19 +13,15 @@ tags:
 
 ## 前言
 
-在经过 Firefox 和 IDM 的几轮更新后，某天开开心心的准备下载一个网页视频的时候，突然发现 IDM 的下载浮动条竟然不显示了，竟然不显示了呀！不显示了我就无法下载网页视频了，无法下载网页视频我就很不开心，考虑到做人最重要就是要开心，而 IDM 是让我开心下载网页视频最最重要的工具，于是我决定解决这个使我不开心的因素。
+在经过 Firefox 和 IDM 的几轮更新后，突然发现 IDM 的下载浮动条竟然不显示了，而 IDM 的网页嗅探能力是我使用它的一个重要原因，于是我决定解决这个问题。
 
-第一时间上 IDM 官网和部分论坛查看帖子，看有没有人和我出现同样的情况。
+第一时间上相关论坛查看帖子，看有没有同样情况。没有。
 
-在仔细查看完 IDM 更新历史后，发现 IDM 才刚刚修复了 Firefox 的兼容问题，但是我明明已经更新到最新版本了，却依旧出现问题，而论坛上也没有一个人反映有遇到和我相同的问题的，并且在我电脑上的 Chrome 和 Edge 都能正常使用，到了这一步，估计是我的个人问题了。
+第二时间查看 IDM 更新历史，发现 IDM 才刚刚修复了 Firefox 的兼容问题，但是我已经是最新版本了，却依旧出现问题，并且在我电脑上的 Chrome 和 Edge 都能正常使用。基本确认是我的个人问题了。
 
-在我参考了官网的解决方案一一排查下，发现罪魁祸首竟然是 FireDoge v1.1.5 版本和 IDM 浏览器扩展出了冲突，两个都使我开心的工具，竟然只能二选一。因为 FireDoge 的作者 shuax 已经不再更新这个外挂插件了，那我的开心不就只剩一半了吗？不行，我要挣扎一下。
+经过我各种方案一一排查，发现罪魁祸首竟然是 FireDoge v1.1.5 ，这插件和 IDM 扩展出了冲突，而 FireDoge 的作者已经声明不再维护该插件了，结果只能二选一。
 
-在网上查了下资料后，最终决定放弃 FireDoge，使用 userChrome 和 Gesturefy 来代替，毕竟  FireDoge 的功能全部都有替代品，但 IDM的方便快捷有效上，暂时没找到替代软件。
-
-#### Internet Download Manager
-
- IDM 在 HTTP 和 FTP 下载方面无可质疑的是一款神器。
+在网上查了下资料后，最终决定放弃 FireDoge，使用 userChrome 和 Gesturefy 来代替，毕竟  FireDoge 的功能全部都有替代品，但 IDM 的方便快捷有效方面，暂时没找到替代软件。
 
 #### Gesturefy
 
@@ -33,7 +29,7 @@ Gesturefy 是 Firefox 的一款免费鼠标手势扩展，使用简单方便，�
 
 #### userChrome
 
-userChrome（下面简称 UC） 是由 Zeniko 从 userChrome.js 衍生而来的一款插件，其可以最大程度的对Firefox进行控制。但在 Firefox 57 更新以后，就决定了这是以后肯定会被淘汰的插件了，但就目前来看，被淘汰的时间还没远远没到，下面详细介绍。
+userChrome（下面简称 UC） 是由 Zeniko 从 userChrome.js 衍生而来的一款插件，其可以最大程度的对Firefox进行控制。但在 Firefox 57 面世以来，就注定了这是一款肯定会被淘汰的插件了，但就目前来看，被淘汰的时间还没远远没到。
 
 <br>
 
@@ -41,26 +37,25 @@ userChrome（下面简称 UC） 是由 Zeniko 从 userChrome.js 衍生而来的�
 
 **两步完成安装：**
 
-首先，在地址栏输入：about:config，无视警告后再搜索 toolkit.legacyUserProfileCustomizations.stylesheets，双击参数设置属性为 true。
+#### 浏览器内
 
-然后下载UC插件：
+在地址栏输入：about:config，无视警告后再搜索 toolkit.legacyUserProfileCustomizations.stylesheets，双击参数设置属性为 true。
 
-目前还在维护的 UC 项目是 alice0775 的
-https://github.com/alice0775/userChrome.js
+#### 浏览器外
+下载UC插件：
 
-打开上述项目后，根据自己的版本分别下载 **userChrome.css**、**userChrome.js** 和 **userChrome.xml** 三个文件，其余 JS 文件均为维护者正在使用的 JS 脚本。
+本人使用的 UC 项目是 alice0775 的
+[https://github.com/alice0775/userChrome.js](https://github.com/alice0775/userChrome.js)
+
+打开上述项目后，根据**自己的版本**选择 **userChrome.css**、**userChrome.js** 和 **userChrome.xml** 三个文件，其余 JS 文件均为维护者正在使用的 JS 脚本。
 
 ![enter description here](https://pic.superbed.cn/item/5d7b3843451253d178ab6f55.jpg)
 
 ![一般在项目的最下面](https://pic.superbed.cn/item/5d788f03451253d1785b1620.jpg)
 
-接着在 Firefox 浏览器的网址栏输入 about:support ，回车，并打开配置文件夹
+接着在 Firefox 浏览器的网址栏输入 about:support ，然后并打开配置文件夹，新建文件夹 chrome，将上面三个下载的文件丢进去即完成 userChrome 的安装。
 
-![enter description here](https://pic.superbed.cn/item/5d789016451253d1785b3511.jpg)
-
-在打开的配置文件夹中新建文件夹 chrome，将以上三个下载的文件丢进去即完成 userChrome 的安装。
-
-<br>
+  ___ 
 
 但是 userChrome 安装完成后没有用，还需要把你的 UC 脚本复制粘贴到 chrome 文件夹中，但 UC 脚本就需要你们自己去找了 。
 
@@ -98,7 +93,6 @@ https://github.com/alice0775/userChrome.js
 ```
 
 
-userChrome 插件 & tabPlus 脚本打包下载： https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg 提取码: 1234 
+userChrome 插件 & tabPlus 脚本打包下载： [https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg]( https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg) 提取码: 1234 
 
 
-转载请注明出处
