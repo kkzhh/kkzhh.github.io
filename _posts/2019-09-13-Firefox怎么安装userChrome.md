@@ -67,6 +67,10 @@ userChrome（下面简称 UC） 是由 Zeniko 从 userChrome.js 衍生而来的�
 
 又双或者是两者同时失效了。
 
+---
+
+注意！Firefox117 版本后，安装要增加一步，还需要在浏览器安装目录里替换上面项目中，对应版本给出的 config.js 和 defaults/pref/config-prefs.js 两个文件才算完成安装，没有相关文件夹请自行新建。
+
  tabPlus.uc.js 里的代码里有 4 个功能，每个功能都有注释，条理很清晰。
 
 //1.鼠标悬浮标签栏自动激活
