@@ -47,31 +47,29 @@ userChrome（下面简称 UC） 是由 Zeniko 从 userChrome.js 衍生而来的�
 本人使用的 UC 项目是 alice0775 的
 [https://github.com/alice0775/userChrome.js](https://github.com/alice0775/userChrome.js)
 
-打开上述项目后，根据**自己的版本**选择 **userChrome.css**、**userChrome.js** 和 **userChrome.xml** 三个文件，其余 JS 文件均为维护者正在使用的 JS 脚本。
+打开上述项目后，拉到项目最下方有说明，根据**自己的版本**选择对应的 **userChrome.js** 文件，其余 JS 文件均为维护者正在使用的 JS 脚本。
 
 ![enter description here](https://pic.superbed.cn/item/5d7b3843451253d178ab6f55.jpg)
 
 ![一般在项目的最下面](https://pic.superbed.cn/item/5d788f03451253d1785b1620.jpg)
 
-接着在 Firefox 浏览器的网址栏输入 about:support ，然后并打开配置文件夹，新建文件夹 chrome，将上面三个下载的文件丢进去即完成 userChrome 的安装。
+接着在 Firefox 浏览器的网址栏输入 about:support ，然后找到当前使用配置文件，在根目录那一项，点击打开文件，接着再新建文件夹 chrome，将上面下载的一个文件丢进去即完成 userChrome 的安装。
 
   ___ 
 
-但是 userChrome 安装完成后没有用，还需要把你的 UC 脚本复制粘贴到 chrome 文件夹中，但 UC 脚本就需要你们自己去找了 。
+但是 userChrome 安装完成后没有用，还需要把你的 UC 脚本复制粘贴到 chrome 文件夹中， UC 脚本就需要你们自己去找了 。
 
-比如这次我最需要的功能是 “鼠标悬浮标签栏自动激活” 与 “右键关闭标签页” 功能，而 tabPlus.uc.js 脚本刚好有我需要的两个功能，把这个 js 文件移动到 chrome 文件夹中，再重启浏览器即可完成。
+比如这次我最需要的功能是 “鼠标悬浮标签栏自动激活” 与 “右键关闭标签页” 功能，而 tabPlus.uc.js 脚本刚好有我需要的两个功能，把这个 js 文件移动到刚才新建的 chrome 文件夹中，再重启浏览器即可完成。
 
 如果重启后功无法正常使用，那就可能是 Firefox 版本更新了，需要更新 UC 插件了。
-
-又或者是脚本已经失效了。
-
-又双或者是两者同时失效了。
 
 ---
 
 注意！Firefox117 版本后，安装要增加一步，还需要在浏览器安装目录里替换上面项目中，对应版本给出的 config.js 和 defaults/pref/config-prefs.js 两个文件才算完成安装，没有相关文件夹请自行新建。
 
- tabPlus.uc.js 里的代码里有 4 个功能，每个功能都有注释，条理很清晰。
+---
+
+ tabPlus.uc.js 脚本里有 4 个功能，每个功能都有注释，条理很清晰，不要直接删除对应代码块。
 
 //1.鼠标悬浮标签栏自动激活
 
@@ -97,6 +95,6 @@ userChrome（下面简称 UC） 是由 Zeniko 从 userChrome.js 衍生而来的�
 ```
 
 
-userChrome 插件 & tabPlus 脚本打包下载： [https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg]( https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg) 提取码: 1234 
+旧版 userChrome 插件 & tabPlus 脚本打包下载： [https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg]( https://pan.baidu.com/s/1qkm9SVgQzMo8diHzI1jpxg) 提取码: 1234 
 
 
